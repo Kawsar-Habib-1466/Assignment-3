@@ -22,7 +22,7 @@
         }
     </script>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&family=ADLaM+Display&display=swap" rel="stylesheet">
-    <title>Responsive Navbar</title>
+    <title>Browse4Pets</title>
 </head>
 <body>
     <nav class=" mx-auto  p-4 font-sora bg-[#FFF9F4] border-b-[2px] md:border-b-[0px] mb-2">
@@ -30,7 +30,7 @@
             <!-- Logo -->
             <div class="flex items-center space-x-2">
                <img src="./c1-assets/logo-header.png" alt="" class="h-8">
-                <a href="#" class="text-lg font-bold">Browse<span class="text-yellow-500">4</span>Pets</a>
+                <a href="#" class="text-lg font-bold hidden md:block">Browse<span class="text-yellow-500">4</span>Pets</a>
             </div>
             
             <!-- Desktop Menu -->
@@ -67,24 +67,24 @@
         </div>
         
         <!-- Mobile Menu -->
-        <!-- <input type="checkbox" id="menu-toggle" class="hidden" />
+        <input type="checkbox" id="menu-toggle" class="hidden" />
         <div class="md:hidden hidden flex flex-col space-y-2 p-4" id="menu">
             <a href="#" class="hover:text-yellow-500">Find a pet</a>
             <a href="#" class="hover:text-yellow-500">Breeds</a>
             <a href="#" class="hover:text-yellow-500">Contact us</a>
             <button class="btn btn-outline w-full">Login</button>
             <button class="btn btn-warning w-full">Register</button>
-        </div> -->
+        </div>
     </nav>
 
-    <!-- <script>
+    <script>
         const menuToggle = document.getElementById('menu-toggle');
         const menu = document.getElementById('menu');
 
         menuToggle.addEventListener('change', () => {
             menu.classList.toggle('hidden');
         });
-    </script> -->
+    </script>
 
     <!-- Hero Section Added -->
     <!-- <section class="container mx-auto px-4 py-16 flex flex-col lg:flex-col md:flex-row items-left border static size-max border-red-200">
